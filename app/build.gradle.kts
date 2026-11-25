@@ -47,6 +47,10 @@ dependencies {
     implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.activity.compose)
+    implementation("com.squareup.retrofit2:retrofit:2.11.0") // retrofit making rest api call to pokeapi
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0") //Gson converter turns pokeapi json into kt data class
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1") //coroutines lets api call run in backgroud
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.0") //viewmodel for compose
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation(libs.androidx.runtime)
     implementation(libs.material)

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FinalProjectGroup1</string>
+
+
+    <!-- Pokédex page  -->
+    <string name="pokedex_title">Pokédex</string>
+    <string name="pokedex_search_label">Search by name</string>
+    <string name="pokedex_source">National Pokédex (PokéAPI)</string>
+    <string name="pokedex_number_prefix">#</string>
+    <string name="pokedex_error">Could not load the Pokédex. Check your internet connection.</string>
+    <string name="button_retry">Try again</string>
 </resources>
+
